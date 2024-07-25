@@ -1,0 +1,114 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background: #012c63; /* Change background color */
+    color: #fff;
+    padding: 1.5rem 0; /* Increase padding */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1.5rem; /* Increase margin */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; /* Make font bold */
+    transition: color 0.3s ease; /* Add transition */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Change color on hover */
+}
+
+section {
+    padding: 3rem 1rem; /* Adjust padding */
+    max-width: 1200px;
+    margin: 0 auto; /* Center sections */
+}
+
+.project {
+    background: #ffffff;
+    margin: 1.5rem 0; /* Increase margin */
+    padding: 1.5rem; /* Increase padding */
+    border-radius: 10px; /* Increase border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: transform 0.3s ease; /* Add transition */
+}
+
+.project:hover {
+    transform: translateY(-10px); /* Lift on hover */
+}
+
+form {
+    max-width: 600px;
+    margin: 2rem auto; /* Adjust margin */
+    background: #fff;
+    padding: 2rem; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+form label {
+    display: block;
+    margin: 1rem 0 0.5rem; /* Adjust margin */
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75rem; /* Increase padding */
+    margin-bottom: 1.5rem; /* Increase margin */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Add border radius */
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+form button {
+    padding: 0.75rem 1.5rem; /* Adjust padding */
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease; /* Add transition */
+}
+
+form button:hover {
+    background: #45a049; /* Change background color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    nav ul li a {
+        font-size: 5.5rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+}
