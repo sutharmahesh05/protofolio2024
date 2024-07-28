@@ -8,6 +8,10 @@ body {
     line-height: 1.6;
     background-color: #f0f0f0;
     color: #333;
+    background-image: url('path/to/your/image.jpg'); /* Add the background image */
+    background-size: cover; /* Make the background image cover the entire area */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-attachment: fixed; /* Fix the background image when scrolling */
 }
 
 header {
@@ -43,6 +47,8 @@ section {
     padding: 3rem 1rem; /* Adjust padding */
     max-width: 1200px;
     margin: 0 auto; /* Center sections */
+    background-color: rgba(255, 255, 255, 0.8); /* Add background color with transparency */
+    border-radius: 10px; /* Add border radius */
 }
 
 .project {
