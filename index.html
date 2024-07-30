@@ -3,65 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Mahesh's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Protofolio Website</h1>
+        <h1>Mahesh's Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#profile" class="nav-link">Profile</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
+    <section id="about" class="section">
         <h2>About Me</h2>
-        <p>Hello, I'm Suthar Mahesh, a passionate Computer Engineering student and  currently pursuing my B.Tech degree,
-        I am dedicated to honing my skills in programming and languages like Python, java, c .
-            While I am perfect in UI/UX and started to making more design 
-           Now I have started work in frontend Developer.
-            Let's connect and embark on this exciting journey together!"</p>
+        <p>Hello, I'm Suthar Mahesh, a passionate Computer Engineering student pursuing my B.Tech degree. I'm dedicated to honing my skills in programming languages like Python, Java, and C. I'm proficient in UI/UX design and have started working as a front-end developer. Let's connect and embark on this exciting journey together!</p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="section">
         <h2>Projects</h2>
         <div class="project">
-            <h3>Landing page</h3>
-            <p> https://github.com/sutharmahesh05/landing-page</p>
+            <h3>Landing Page</h3>
+            <a href="https://github.com/sutharmahesh05/landing-page" target="_blank">View Project</a>
         </div>
         <div class="project">
             <h3>Project 2</h3>
-            <p> Making a calculator </p>
+            <p>Description of Project 2.</p>
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="section">
         <h2>Contact</h2>
         <form id="contact-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
              
-            <label for = "Mobile"> Number</label>
-            <input type ="number" id ="Mobile" name ="mobile" required>
-
-            <label for = "Address"> Address</label>
-            <input type ="text" id ="Address" name ="Address" required>
+            <label for="mobile">Number:</label>
+            <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}">
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" required></textarea>
-            
 
             <button type="submit">Send</button>
         </form>
     </section>
-
+    
+    <section id="profile" class="section">
+        <h2>Profile</h2>
+        <img src="mahesh.jpg" alt="Profile Image" class="profile-image">
+        <p>Hello, I'm Suthar Mahesh, a passionate Computer Engineering student currently pursuing my B.Tech degree. I am dedicated to honing my skills in programming languages like Python, Java, and C. While I am proficient in UI/UX design and have started making more designs, I have now started working as a front-end developer. Let's connect and embark on this exciting journey together!</p>
+    </section>
+    
     <script src="script.js"></script>
 </body>
 </html>
+sss
